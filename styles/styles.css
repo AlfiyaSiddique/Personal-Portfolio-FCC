@@ -1,0 +1,338 @@
+/*all styles */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+/* body */
+  #bg-video{
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+} 
+ body,html{
+   overflow: hidden;
+   width: 100vw;
+    height: 100vh;
+    overflow-y: scroll; 
+   font-family: "Ubuntu",sans-serif;
+}  
+
+/* navbar */
+/* nav-text */
+   #intro-text{
+    text-align: center;
+    margin: 5%;
+    font-size: 2rem;
+}
+
+#intro-text h2{
+    font-family: "Tangerine",cursive;
+    font-size: 4rem;
+}  
+
+/* nav-link */
+  #welcome-section{
+    position:fixed;
+    top: -200vh;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: whitesmoke;
+    transition: 1.5s;
+    z-index: 1;
+}
+.fa-times{
+    font-size: 2rem;
+position: absolute;
+right: 1.5rem;
+top: .5rem;
+color: whitesmoke;
+}
+.fa-times:hover{
+    cursor: pointer;
+    color: rgb(159, 159, 159);
+}
+ul{
+    
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly ;
+   
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover{
+    color: rgb(159, 159, 159);
+    cursor: pointer;
+}
+ul li{
+    list-style: none;
+    font-size: 2rem;
+    display:inline-block; 
+    padding-top: 8rem ;
+} */
+
+  
+/* welcome */
+
+ #welcome{
+   height: 100vh;
+   width: 100vw;
+    font-family: "Kaisei Tokumin",serif;
+    text-align: center;
+
+}  
+  #welcome div h1,#welcome div  h2{
+    text-align: left;
+    color: whitesmoke;
+    font-size: 3rem;
+
+} 
+ #welcome div{
+position: absolute;
+top: 40%;
+left: 5rem;
+text-align: left;
+}
+
+.icon{
+    font-size: 3.5rem;
+    animation: blow  infinite .8s .5s;
+    color: cyan;
+    margin: auto 2.5rem;
+}
+
+#opening{
+    width: 8rem;
+    padding: .8rem;
+    background: rgb(23, 226, 245);
+    border-radius: 10px;
+    color: rgb(2, 2, 36);
+    font-size: 1.2rem;
+    font-weight: bolder;
+    cursor: pointer;
+    display: block;
+}
+#opening:hover{
+    background-color: rgb(68, 153, 192);
+    cursor: pointer;
+    border: 3px solid black;
+} 
+
+/* skills */
+#skills{
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+    position: fixed; 
+    top: 0;
+    left: -100vw;
+    text-align: center;
+    padding: 2rem;
+    background-color: #22577A;
+    color: whitesmoke;
+    transition: 2s;
+    z-index: 3;
+} 
+.skill-container{
+    margin:5rem  2rem;
+}
+.skill-container h2{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+.skill-img{
+    margin:  1.5rem auto;
+    height: 14rem;
+    width: 14rem;
+    border-radius: 100%;
+}
+#skills p{
+    width: 50%;
+    margin: auto;
+    font-size: 1.1rem;
+}
+/* skills part2 */
+#img-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.skill-img{
+    height: 10rem;
+    width: 10rem;
+} 
+
+/* projects */
+  #projects{
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+    position: fixed; 
+     bottom: -100vh;
+    text-align: center;
+    padding: 2rem;
+    background-color: rgb(28, 38, 80);
+    color: whitesmoke;
+    transition: 2s;
+    z-index: 3;
+}
+.all-h1{
+    font-size: 2rem;
+    color: whitesmoke;
+} 
+
+ .container{
+    margin: 3rem;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows:1fr 1fr  ;
+column-gap: 2rem;
+row-gap: 5rem;
+}
+.project-tile{
+    width: 22rem;
+    margin: auto;
+    
+}
+
+
+.project-tile:hover{
+    cursor: pointer;
+}
+
+.project-img{
+    width:22rem;
+    border: 2rem black solid;
+    border-radius: 10px;
+}
+#projects .container a h4{
+    font-size: 1.5rem;
+    margin-top: .5rem;
+}  
+/* links */
+ #link-section{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -100vw;
+   padding: 2rem;
+z-index: 3; 
+transition: 2s;
+    background-color: #170055 ;
+   text-align: center;
+}
+
+.link{
+    display: block;
+    margin: 2rem;
+    font-size: 2rem;
+}
+.link-cont{
+
+    margin: auto;
+    margin-top: 5rem;
+}
+.logo-img{
+    width: 3rem;
+    height: 3rem;
+}
+#note{
+    position: absolute;
+    bottom:-3%;
+} 
+/* special navbar */
+
+ #navbar{
+    position: fixed;
+    top: 0rem;
+    left: 1rem;
+    z-index: 3;
+    display: inline-block; 
+}
+
+.fa-arrow-alt-circle-down{
+    color:black;
+}
+/* animation */
+
+ @keyframes blow{
+    0%{opacity: 1;}
+    50%{opacity: .5;}
+    100%{opacity: .1;}
+} 
+
+/* media querry  1*/
+ @media (max-width: 425px){
+    #welcome div h1,#welcome div  h2{
+    font-size: 2rem;
+} 
+}
+
+/* media 2 */
+@media screen and (max-width:702px) and (max-width:768px){
+    #img-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;
+    
+    }
+    #welcome div{
+        top:30%;
+    }
+}
+/* media 3 */
+@media(max-width:683px){
+ #img-container{
+     display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+ }  
+ #skills p{
+     width: auto;
+ } 
+ 
+}
+/* media 4 */
+@media(max-width:1221px){
+    .container{
+        grid-template-columns: 1fr  1fr;
+    grid-template-rows:1fr 1fr  ;
+    column-gap: 2rem;
+    row-gap: 5rem;
+    
+    }
+}
+
+/* media 5 */
+@media (max-width:840px){
+    .container{
+        grid-template-columns: 1fr  ;
+grid-template-rows:1fr 1fr 1fr 1fr ;
+row-gap: 5rem;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+   ul li{
+        padding-top: 4rem;
+    }
+}
+/* media 6 */
+@media(max-width:500px){
+    #projects{
+        padding: 0;
+        padding-top: 2rem;
+    }
+    .container{
+        margin: 0;
+        margin-top: 2rem;
+    }
+    
+}

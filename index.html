@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon link -->
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- css link  -->
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@800&family=Ubuntu+Condensed&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+
+    <!-- font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+
+    <title>Personal Portfolio</title>
+</head>
+
+<body>
+    <!-- freecodecamp test -->
+
+
+    <!-- body background -->
+     <video id="bg-video" muted loop autoplay>
+        <source src="video/Technology Background.mp4">
+    </video>  
+    <!-- navbar -->
+    <nav id="welcome-section">
+
+        <i class="fa fa-times " id="nav-cross-icon">
+        </i>
+        <div id="intro-text">
+            <h1>Hey There!</h1>
+            <h2>I'm Alfiya</h2>
+            <h3>a Web Developer</h3>
+        </div>
+        <ul>
+            <li><a href="#welcome-section" onclick="skillCome()">My Skills</a></li>
+            <li><a href="#projects" onclick="projectUp()">My Work</a></li>
+            <li><a href="#link-section" onclick="linkUp()">Contact</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- welcome section -->
+     <section id="welcome">
+        <div>
+            <h1>Want To Know Who I Am?</h1>
+            <h2>Click The Button Below</h2>
+            <i class="fa fa-angle-double-down icon"></i>
+            <button id="opening">Click It</button>
+        </div>
+    </section> 
+    <!-- skill section -->
+    <section id="skills">
+        <i class="fa fa-times " id="skills-cross-icon"></i>
+        <h1 class="all-h1">My Skills</h1>
+        <div class="skill-container">
+            <h2>Web Development and Designing</h2>
+            <img src="images/webdev.jpg" class="skill-img" alt="skill-img">
+            <p>I can develop and design your websites the way you want, Which can attract your customers and help to
+                promote and grow your bussiness.</p>
+        </div>
+        <div class="skill-container">
+            <h2>Coding Languages and Frameworks that I know.</h2>
+            <section id="img-container">
+                <div class="skill-div">
+                    <img src="images/html.png" alt="HTML" class="skill-img">
+                    <h4>HTML - Markuup Language</h4>
+                </div>
+                <div class="skill-div">
+                    <img src="images/css.png" alt="HTML" class="skill-img">
+                    <h4>CSS - Designing Language</h4>
+                </div>
+                <div class="skill-div">
+                    <img src="images/javascript.png" alt="HTML" class="skill-img">
+                    <h4>JavascriptL - Scripting Languages</h4>
+                </div>
+                <div class="skill-div">
+                    <img src="images/bootstrap.png" alt="HTML" class="skill-img">
+                    <h4>Bootstraps - HTML and<br> CSS Framework</h4>
+                </div>
+            </section>
+
+        </div>
+    </section>
+
+    <!-- projects section -->
+     <section id="projects">
+        <i class="fa fa-times " id="projects-cross-icon"></i>
+        <h1 class="all-h1">My Projects</h1>
+        <div class="container">
+            <a class="project-tile" href=" https://alfiyasiddique.github.io/Tribute-Page-Dr.-Kalam/" target="_blank">
+                <img src="images/pro-1.PNG" alt="project 1" class="project-img">
+                <h4>Tribute Page</h4>
+            </a>
+            <a class="project-tile" href=" https://alfiyasiddique.github.io/SurveyForm-FreeCodeCamp-Technologies-/"
+                target="_blank">
+                <img src="images/pro-2.PNG" alt="project 2" class="project-img">
+                <h4>Survey Form</h4>
+            </a>
+            <a class="project-tile" href=" https://alfiyasiddique.github.io/Product-Landing-Page---Cafe/"
+                target="_blank">
+                <img src="images/pro-3.PNG" alt="project 3" class="project-img">
+                <h4>Product Landing Page</h4>
+            </a>
+            <a class="project-tile" href=" https://alfiyasiddique.github.io/Technical-Documentation-HTML-fcc/"
+                target="_blank">
+                <img src="images/pro-4.PNG" alt="project 4" class="project-img">
+                <h4>Technical Documentation</h4>
+            </a>
+            <a class="project-tile" href="https://alfiyasiddique.github.io/Dice-Game/" target="_blank">
+                <img src="images/pro-5.PNG" alt="project 5" class="project-img">
+                <h4>Dice Game</h4>
+            </a>
+            <a class="project-tile" href=" https://alfiyasiddique.github.io/Ecmascript-Blog/" target="_blank">
+                <img src="images/pro-6.PNG" alt="project 6" class="project-img">
+                <h4>Ecmascript Blog</h4>
+            </a>
+
+        </div>
+    </section>
+    <!-- link section -->
+    <section id="link-section">
+        <nav id="navbar">
+            <a href="#note"><i class="fas fa-arrow-alt-circle-down"></i></a>
+        </nav>
+     <i class="fa fa-times " id="link-cross-icon"></i>
+        <h1 class="all-h1">Contact Me Through Following Ways</h1>
+        <div class="link-cont">
+            <a href="https://github.com/" target="_blank" id="profile-link" class="link">Github <i
+                    class="fab fa-github"></i> </a>
+
+            <a href="https://www.facebook.com/" target="_blank" class="link">Facebook
+                <i class="fab fa-facebook"></i></a>
+
+            <a href="https://www.instagram.com/?hl=en" target="_blank" class="link">Instagram
+                <i class="fab fa-instagram"></i></a>
+
+            <a href="https://www.whatsapp.com/" target="_blank" class="link">Whatsapp <i
+                    class="fab fa-whatsapp"></i></a>
+
+            <a href="https://www.google.com/gmail/" target="_blank" class="link">Email
+                <i class="fa fa-envelope"></i></a>
+
+            <a href="https://github.com/" target="_blank" class="link">FreeCodeCamp
+                <i class="fab fa-free-code-camp"></i></a>
+        </div>
+
+
+    </section> 
+
+     <section id="note">
+        This webpage is a part of course completion certificate from FreeCodeCamp.<br>
+        Hence, It is not Genuine.
+    </section>
+ 
+
+
+
+    <!-- javascript -->
+
+
+    <script>
+        // nav function
+        document.getElementById("opening")
+            .addEventListener("click", openNavbar);
+
+        function openNavbar() {
+            document.getElementById("welcome-section").style.top = "0vh";
+        }
+
+        // nav-cross icon function
+
+        document.getElementById("nav-cross-icon").addEventListener("click", cut);
+
+        function cut() {
+            document.getElementById("welcome-section").style.top = "-100vh"
+        }
+        // skill
+        function skillCome() {
+            document.getElementById('skills').style.left = "0"
+        }
+
+        // skills-cross-icon
+        document.getElementById("skills-cross-icon").addEventListener("click", goSkill);
+
+        function goSkill() {
+            document.getElementById('skills').style.left = "-100vw"
+        }
+
+        // projects
+
+        function projectUp() {
+            document.getElementById('projects').style.bottom = "0";
+        }
+
+        // project-cross icon function
+
+        document.getElementById("projects-cross-icon").addEventListener("click", projectDown);
+
+        function projectDown() {
+            document.getElementById("projects").style.bottom = "-100vh"
+        }
+
+        // links
+        function linkUp() {
+            document.getElementById("link-section").style.right = "0";
+        }
+
+        //    link cross
+        document.getElementById('link-cross-icon').addEventListener("click", linkDown);
+
+        function linkDown() {
+            document.getElementById("link-section").style.right = "-100vw";
+        }
+
+    </script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+<!DOCTYPE html>
+
+
+</html>
