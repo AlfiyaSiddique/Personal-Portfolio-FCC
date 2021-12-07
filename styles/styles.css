@@ -154,7 +154,7 @@ text-align: left;
 #skills p{
     width: 50%;
     margin: auto;
-    font-size: 1.1rem;
+    font-size: 1.8rem;
 }
 /* skills part2 */
 #img-container{
@@ -226,6 +226,7 @@ z-index: 3;
 transition: 2s;
     background-color: #170055 ;
    text-align: center;
+  color: whitesmoke;
 }
 
 .link{
