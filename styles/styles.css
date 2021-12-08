@@ -122,12 +122,13 @@ text-align: left;
     cursor: pointer;
     border: 3px solid black;
 } 
-#welcome a{
+#license{
  color: whitesmoke;
  position : abdolute
   bottom: 0px;
  z-index: 1;
 }
+
 
 /* skills */
 #skills{
