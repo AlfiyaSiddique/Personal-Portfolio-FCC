@@ -122,6 +122,12 @@ text-align: left;
     cursor: pointer;
     border: 3px solid black;
 } 
+#welcome a{
+ color: whitesmoke;
+ position : abdolute
+  bottom: 0px;
+ z-index: 1;
+}
 
 /* skills */
 #skills{
